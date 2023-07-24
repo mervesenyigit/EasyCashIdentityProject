@@ -15,4 +15,4 @@ namespace EasyCashIdentityProject.EntityLayer.Concrete
         public DateTime ProcessDate { get; set; }
     }
 }
-//ıd isle türü(gelen ,giden,ödeme)-miktar-tarih tamam fakat alıcı ve gönderici de olmalı bun apuserdan alamyacakmısız.
+//ıd - islem türü(gelen ,giden,ödeme)-miktar-tarih tamam fakat alıcı ve gönderici de olmalı bun apuserdan alamyacakmısız.Bunun farklı bir yöntimle ilişkilendireceğim.

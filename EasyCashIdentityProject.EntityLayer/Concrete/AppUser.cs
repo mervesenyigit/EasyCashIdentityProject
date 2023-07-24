@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace EasyCashIdentityProject.EntityLayer.Concrete
 {
-    public class AppUser:IdentityUser<int> 
+    public class AppUser:IdentityUser<int> //burada int yazmamım nedeni kullanıcılar için biriincil anahtar olarak kullalacak değerin türünü böyle yapıyorum.
     {
         //buradaki yerleri dbset te verilmesine gerek yok bunlar zaten mevcut sınıfa property olarak ekledik.
         public string Name { get; set; }

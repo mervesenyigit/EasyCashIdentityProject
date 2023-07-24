@@ -24,3 +24,6 @@ namespace EasyCashIdentityProject.DataAccessLayer.Concrete
 
     }
 }
+
+
+
